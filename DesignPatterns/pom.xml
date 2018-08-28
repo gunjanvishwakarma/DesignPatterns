@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>groupId</groupId>
+    <artifactId>MyEclipseWS</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>AbstractFactory</module>
+        <module>AdapterPattern</module>
+        <module>CommandPattern</module>
+        <module>CompositePattern</module>
+        <module>CompoundPattern</module>
+        <module>DecoratorPattern</module>
+        <module>FacadePattern</module>
+        <module>FactoryMethodPattern</module>
+        <module>FewMorePatterns</module>
+        <module>IteratorPattern</module>
+        <module>ObserverPattern</module>
+        <module>ProxyPattern</module>
+        <module>SingletonPattern</module>
+        <module>StatePattern</module>
+        <module>StrategyPattern</module>
+        <module>TemplateMethodPattern</module>
+    </modules>
+</project>
