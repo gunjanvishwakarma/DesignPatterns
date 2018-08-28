@@ -3,12 +3,12 @@ public class TestClass {
 
 	
 	public static void main(String[] args) {
-		VechileOne vechileOne = new VechileOne();
-		vechileOne.createFourWheeler();
-		vechileOne.createTwoWheeler();
-		VechileTwo vechileTwo = new VechileTwo();
-		vechileTwo.createFourWheeler();
-		vechileTwo.createTwoWheeler();
+		MotifWidgetFactory motifWidgetFactory = new MotifWidgetFactory();
+		motifWidgetFactory.createScrollBar();
+		motifWidgetFactory.createWindow();
+		PMWidgetFactory pmWidgetFactory = new PMWidgetFactory();
+		pmWidgetFactory.createScrollBar();
+		pmWidgetFactory.createWindow();
 		
 	}
 
