@@ -4,11 +4,11 @@ public class TestClass {
 	
 	public static void main(String[] args) {
 		MotifWidgetFactory motifWidgetFactory = new MotifWidgetFactory();
-		motifWidgetFactory.createScrollBar();
-		motifWidgetFactory.createWindow();
+		ScrollBar scrollBar = motifWidgetFactory.createScrollBar();
+		Window window = motifWidgetFactory.createWindow();
 		PMWidgetFactory pmWidgetFactory = new PMWidgetFactory();
-		pmWidgetFactory.createScrollBar();
-		pmWidgetFactory.createWindow();
+		ScrollBar scrollBar2 =  pmWidgetFactory.createScrollBar();
+		Window window2 =  pmWidgetFactory.createWindow();
 		
 	}
 
