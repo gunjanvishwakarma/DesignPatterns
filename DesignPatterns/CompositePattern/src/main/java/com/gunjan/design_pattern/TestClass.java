@@ -10,11 +10,11 @@ public class TestClass {
 		MenuComponent dinnerMenu = new Menu("Dinner");
 		MenuComponent lunchMenu = new Menu("Lunch");
 		MenuItem dinnerMenuItem1 = new MenuItem("Roti");
-		MenuItem dinnerMenuItem2 = new MenuItem("Dud");
-		MenuItem dinnerMenuItem3 = new MenuItem("Bhunjiya");
+		MenuItem dinnerMenuItem2 = new MenuItem("Milk");
+		MenuItem dinnerMenuItem3 = new MenuItem("Sabji");
 		MenuItem lunchMenuItem1 = new MenuItem("Dal");
-		MenuItem lunchMenuItem2 = new MenuItem("Bhaat");
-		MenuItem lunchMenuItem3 = new MenuItem("Chokha");
+		MenuItem lunchMenuItem2 = new MenuItem("Rice");
+		MenuItem lunchMenuItem3 = new MenuItem("Sabji");
 		dinnerMenu.add(dinnerMenuItem1);
 		dinnerMenu.add(dinnerMenuItem2);
 		dinnerMenu.add(dinnerMenuItem3);
