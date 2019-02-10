@@ -26,6 +26,7 @@
         <module>StatePattern</module>
         <module>StrategyPattern</module>
         <module>TemplateMethodPattern</module>
+        <module>VisitorPattern</module>
     </modules>
     <build>
         <plugins>
@@ -39,4 +40,18 @@
             </plugin>
         </plugins>
     </build>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+        </dependency>
+        <!-- Needed by junit -->
+        <dependency>
+            <groupId>org.hamcrest</groupId>
+            <artifactId>hamcrest-all</artifactId>
+            <version>1.3</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 </project>

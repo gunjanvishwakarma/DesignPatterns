@@ -1,4 +1,4 @@
-package com.gunjan.flightweight;
+package com.gunjan.proxy;
 
 
 import java.util.HashMap;

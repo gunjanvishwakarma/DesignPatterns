@@ -1,12 +1,11 @@
-package com.gunjan.flightweight;
+package com.gunjan.proxy;
 
-
-public class FlyweightSprintCar extends RaceCar
+public class FlyweightMidgetCar extends RaceCar
 {
     /*Track number of flyweight instantiation*/
     public static int num;
     
-    public FlyweightSprintCar()
+    public FlyweightMidgetCar()
     {
         num++;
     }
@@ -19,3 +18,5 @@ public class FlyweightSprintCar extends RaceCar
         System.out.println("New location of " + this.name + " is X" + newX + " - Y" + newY);
     }
 }
+
+

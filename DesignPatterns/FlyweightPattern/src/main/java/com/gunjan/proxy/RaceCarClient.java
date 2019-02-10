@@ -1,4 +1,4 @@
-package com.gunjan.flightweight;
+package com.gunjan.proxy;
 
 public class RaceCarClient
 {
