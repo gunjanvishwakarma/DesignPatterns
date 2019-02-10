@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.gunjan.bridge.abstraction.Message</OriginalElement>
+  <nodes>
+    <node x="0.0" y="148.0">com.gunjan.bridge.abstraction.TextMessage</node>
+    <node x="95.5" y="268.0">com.gunjan.bridge.implementation.MessageSender</node>
+    <node x="121.5" y="0.0">com.gunjan.bridge.abstraction.Message</node>
+    <node x="0.0" y="370.0">com.gunjan.bridge.implementation.TextMessageSender</node>
+    <node x="248.0" y="148.0">com.gunjan.bridge.abstraction.EmailMessage</node>
+    <node x="191.0" y="370.0">com.gunjan.bridge.implementation.EmailMessageSender</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.gunjan.bridge.abstraction.TextMessage" target="com.gunjan.bridge.abstraction.Message">
+      <point x="0.0" y="-37.5" />
+      <point x="114.0" y="123.0" />
+      <point x="180.5" y="123.0" />
+      <point x="-59.0" y="49.0" />
+    </edge>
+    <edge source="com.gunjan.bridge.implementation.EmailMessageSender" target="com.gunjan.bridge.implementation.MessageSender">
+      <point x="0.0" y="-26.0" />
+      <point x="276.5" y="345.0" />
+      <point x="223.75" y="345.0" />
+      <point x="42.75" y="26.0" />
+    </edge>
+    <edge source="com.gunjan.bridge.implementation.TextMessageSender" target="com.gunjan.bridge.implementation.MessageSender">
+      <point x="0.0" y="-26.0" />
+      <point x="85.5" y="345.0" />
+      <point x="138.25" y="345.0" />
+      <point x="-42.75" y="26.0" />
+    </edge>
+    <edge source="com.gunjan.bridge.abstraction.EmailMessage" target="com.gunjan.bridge.abstraction.Message">
+      <point x="0.0" y="-37.5" />
+      <point x="365.0" y="123.0" />
+      <point x="298.5" y="123.0" />
+      <point x="59.0" y="49.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="165.5" y="201.5" />
+  <SelectedNodes>
+    <node>com.gunjan.bridge.abstraction.Message</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

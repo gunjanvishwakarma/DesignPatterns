@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.gunjan.design_pattern.MotifScrollBar</OriginalElement>
+  <nodes>
+    <node x="0.0" y="323.0">com.gunjan.design_pattern.PMScrollBar</node>
+    <node x="0.0" y="124.0">com.gunjan.design_pattern.PMWidgetFactory</node>
+    <node x="130.0" y="323.0">com.gunjan.design_pattern.MotifScrollBar</node>
+    <node x="109.0" y="0.0">com.gunjan.design_pattern.WidgetFactory</node>
+    <node x="0.0" y="478.0">com.gunjan.design_pattern.PMWindow</node>
+    <node x="218.0" y="124.0">com.gunjan.design_pattern.MotifWidgetFactory</node>
+    <node x="76.5" y="243.0">com.gunjan.design_pattern.ScrollBar</node>
+    <node x="294.0" y="398.0">com.gunjan.design_pattern.TestClass</node>
+    <node x="75.75" y="398.0">com.gunjan.design_pattern.Window</node>
+    <node x="129.0" y="478.0">com.gunjan.design_pattern.MotifWindow</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.gunjan.design_pattern.PMWindow" target="com.gunjan.design_pattern.Window">
+      <point x="0.0" y="-15.0" />
+      <point x="54.5" y="453.0" />
+      <point x="98.75" y="453.0" />
+      <point x="-23.0" y="15.0" />
+    </edge>
+    <edge source="com.gunjan.design_pattern.PMWidgetFactory" target="com.gunjan.design_pattern.WidgetFactory">
+      <point x="0.0" y="-37.0" />
+      <point x="99.0" y="99.0" />
+      <point x="158.5" y="99.0" />
+      <point x="-49.5" y="37.0" />
+    </edge>
+    <edge source="com.gunjan.design_pattern.MotifScrollBar" target="com.gunjan.design_pattern.ScrollBar">
+      <point x="0.0" y="-15.0" />
+      <point x="191.0" y="298.0" />
+      <point x="146.25" y="298.0" />
+      <point x="23.25" y="15.0" />
+    </edge>
+    <edge source="com.gunjan.design_pattern.MotifWidgetFactory" target="com.gunjan.design_pattern.WidgetFactory">
+      <point x="0.0" y="-37.0" />
+      <point x="317.0" y="99.0" />
+      <point x="257.5" y="99.0" />
+      <point x="49.5" y="37.0" />
+    </edge>
+    <edge source="com.gunjan.design_pattern.PMScrollBar" target="com.gunjan.design_pattern.ScrollBar">
+      <point x="0.0" y="-15.0" />
+      <point x="55.0" y="298.0" />
+      <point x="99.75" y="298.0" />
+      <point x="-23.25" y="15.0" />
+    </edge>
+    <edge source="com.gunjan.design_pattern.MotifWindow" target="com.gunjan.design_pattern.Window">
+      <point x="0.0" y="-15.0" />
+      <point x="189.0" y="453.0" />
+      <point x="144.75" y="453.0" />
+      <point x="23.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="195.0" y="210.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

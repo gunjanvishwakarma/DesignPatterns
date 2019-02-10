@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>exampletwo.InvokerClass</OriginalElement>
+  <nodes>
+    <node x="539.0" y="291.0">exampletwo.FileReceiver</node>
+    <node x="0.0" y="125.0">exampletwo.PrintCommand</node>
+    <node x="706.0" y="125.0">exampletwo.OpenCommand</node>
+    <node x="396.0" y="0.0">exampletwo.Command</node>
+    <node x="331.0" y="291.0">exampletwo.TestClass</node>
+    <node x="244.0" y="125.0">exampletwo.ExitCommand</node>
+    <node x="715.0" y="291.0">exampletwo.OpenReceiver</node>
+    <node x="476.0" y="125.0">exampletwo.FileCommand</node>
+    <node x="0.0" y="434.0">exampletwo.ExitReceiver</node>
+    <node x="176.0" y="434.0">exampletwo.PrintReceiver</node>
+    <node x="0.0" y="291.0">exampletwo.InvokerClass</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="exampletwo.FileCommand" target="exampletwo.Command">
+      <point x="0.0" y="-60.5" />
+      <point x="581.0" y="105.0" />
+      <point x="482.875" y="105.0" />
+      <point x="17.375" y="37.5" />
+    </edge>
+    <edge source="exampletwo.PrintCommand" target="exampletwo.Command">
+      <point x="0.0" y="-60.5" />
+      <point x="112.0" y="95.0" />
+      <point x="413.375" y="95.0" />
+      <point x="-52.125" y="37.5" />
+    </edge>
+    <edge source="exampletwo.ExitCommand" target="exampletwo.Command">
+      <point x="0.0" y="-60.5" />
+      <point x="350.0" y="105.0" />
+      <point x="448.125" y="105.0" />
+      <point x="-17.375" y="37.5" />
+    </edge>
+    <edge source="exampletwo.OpenCommand" target="exampletwo.Command">
+      <point x="0.0" y="-60.5" />
+      <point x="823.0" y="95.0" />
+      <point x="517.625" y="95.0" />
+      <point x="52.125" y="37.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="450.5" y="130.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

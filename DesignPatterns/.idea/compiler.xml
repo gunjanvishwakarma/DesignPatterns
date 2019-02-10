@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="AbstractFactory" />
+        <module name="AdapterPattern" />
+        <module name="BridgePattern" />
+        <module name="BuilderPattern" />
+        <module name="ChainOfResponsibility" />
+        <module name="CommandPattern" />
+        <module name="CompositePattern" />
+        <module name="CompoundPattern" />
+        <module name="DecoratorPattern" />
+        <module name="FacadePattern" />
+        <module name="FactoryMethodPattern" />
+        <module name="FewMorePatterns" />
+        <module name="FlyweightPattern" />
+        <module name="IteratorPattern" />
+        <module name="MomentoPattern" />
+        <module name="ObserverPattern" />
+        <module name="PrototypePattern" />
+        <module name="ProxyPattern" />
+        <module name="SingletonPattern" />
+        <module name="StatePattern" />
+        <module name="StrategyPattern" />
+        <module name="TemplateMethodPattern" />
+        <module name="VisitorPattern" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="AbstractFactory" target="1.5" />
+      <module name="AdapterPattern" target="1.5" />
+      <module name="BridgePattern" target="1.9" />
+      <module name="BuilderPattern" target="1.9" />
+      <module name="ChainOfResponsibility" target="1.5" />
+      <module name="CommandPattern" target="1.5" />
+      <module name="CompositePattern" target="1.5" />
+      <module name="CompoundPattern" target="1.5" />
+      <module name="DecoratorPattern" target="1.5" />
+      <module name="DesignPatterns" target="1.9" />
+      <module name="FacadePattern" target="1.5" />
+      <module name="FactoryMethodPattern" target="1.5" />
+      <module name="FewMorePatterns" target="1.5" />
+      <module name="FlyweightPattern" target="1.7" />
+      <module name="IteratorPattern" target="1.5" />
+      <module name="MomentoPattern" target="1.9" />
+      <module name="ObserverPattern" target="1.5" />
+      <module name="PrototypePattern" target="1.5" />
+      <module name="ProxyPattern" target="1.7" />
+      <module name="SingletonPattern" target="1.5" />
+      <module name="StatePattern" target="1.5" />
+      <module name="StrategyPattern" target="1.5" />
+      <module name="TemplateMethodPattern" target="1.5" />
+      <module name="VisitorPattern" target="1.9" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/BuilderPattern/pom.xml" />
+        <option value="$PROJECT_DIR$/PrototypePattern/pom.xml" />
+        <option value="$PROJECT_DIR$/BridgePattern/pom.xml" />
+        <option value="$PROJECT_DIR$/FlyweightPattern/pom.xml" />
+        <option value="$PROJECT_DIR$/ChainOfResponsibility/pom.xml" />
+        <option value="$PROJECT_DIR$/MomentoPattern/pom.xml" />
+        <option value="$PROJECT_DIR$/VisitorPattern/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_9" default="false" project-jdk-name="9" project-jdk-type="JavaSDK" />
+</project>
