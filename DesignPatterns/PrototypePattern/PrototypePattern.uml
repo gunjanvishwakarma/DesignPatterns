@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>BombedMazeFactory</OriginalElement>
+  <nodes>
+    <node x="423.0" y="443.0">java.lang.Cloneable</node>
+    <node x="0.0" y="658.5">Wall</node>
+    <node x="0.0" y="789.0">BombedMazeFactory</node>
+    <node x="0.0" y="168.0">MazePrototypeFactory</node>
+    <node x="395.0" y="523.0">Prototype</node>
+    <node x="300.0" y="789.0">SimpleMazeFactory</node>
+    <node x="589.0" y="789.0">Test</node>
+    <node x="599.0" y="658.5">Maze</node>
+    <node x="146.0" y="658.5">RoomWithABomb</node>
+    <node x="751.0" y="658.5">Room</node>
+    <node x="367.0" y="625.0">Door</node>
+    <node x="46.5" y="0.0">MazeFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Wall" target="Prototype">
+      <point x="0.0" y="-26.0" />
+      <point x="63.0" y="595.0" />
+      <point x="410.6" y="595.0" />
+      <point x="-62.39999999999998" y="26.0" />
+    </edge>
+    <edge source="MazePrototypeFactory" target="MazeFactory">
+      <point x="0.0" y="-115.0" />
+      <point x="0.0" y="59.0" />
+    </edge>
+    <edge source="Door" target="Prototype">
+      <point x="0.0" y="-59.5" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="Prototype" target="java.lang.Cloneable">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="RoomWithABomb" target="Prototype">
+      <point x="0.0" y="-26.0" />
+      <point x="246.5" y="605.0" />
+      <point x="441.8" y="605.0" />
+      <point x="-31.19999999999999" y="26.0" />
+    </edge>
+    <edge source="Room" target="Prototype">
+      <point x="0.0" y="-26.0" />
+      <point x="819.0" y="595.0" />
+      <point x="535.4" y="595.0" />
+      <point x="62.39999999999998" y="26.0" />
+    </edge>
+    <edge source="Maze" target="Prototype">
+      <point x="0.0" y="-26.0" />
+      <point x="665.0" y="605.0" />
+      <point x="504.2" y="605.0" />
+      <point x="31.19999999999999" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="420.5" y="620.5" />
+  <SelectedNodes>
+    <node>BombedMazeFactory</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

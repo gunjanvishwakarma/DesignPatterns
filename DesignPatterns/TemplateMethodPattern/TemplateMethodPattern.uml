@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.gunjan.design_pattern.CaffeinBeverage</OriginalElement>
+  <nodes>
+    <node x="92.0" y="0.0">com.gunjan.design_pattern.CaffeinBeverage</node>
+    <node x="0.0" y="223.0">com.gunjan.design_pattern.Coffee</node>
+    <node x="0.0" y="353.0">com.gunjan.design_pattern.TestClass</node>
+    <node x="199.0" y="212.0">com.gunjan.design_pattern.Tea</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.gunjan.design_pattern.Coffee" target="com.gunjan.design_pattern.CaffeinBeverage">
+      <point x="0.0" y="-37.0" />
+      <point x="89.5" y="187.0" />
+      <point x="144.25" y="187.0" />
+      <point x="-52.25" y="81.0" />
+    </edge>
+    <edge source="com.gunjan.design_pattern.Tea" target="com.gunjan.design_pattern.CaffeinBeverage">
+      <point x="0.0" y="-48.0" />
+      <point x="303.5" y="187.0" />
+      <point x="248.75" y="187.0" />
+      <point x="52.25" y="81.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="84.0" y="170.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

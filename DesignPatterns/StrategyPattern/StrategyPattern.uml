@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.gunjan.strategy.DecoyDuck</OriginalElement>
+  <nodes>
+    <node x="0.0" y="657.0">com.gunjan.strategy.FlyRocketPowered</node>
+    <node x="461.0" y="555.0">com.gunjan.strategy.MiniDuckSimulator1</node>
+    <node x="0.0" y="236.0">com.gunjan.strategy.RubberDuck</node>
+    <node x="0.0" y="754.0">com.gunjan.strategy.MiniDuckSimulator</node>
+    <node x="0.0" y="458.0">com.gunjan.strategy.Quack</node>
+    <node x="496.0" y="236.0">com.gunjan.strategy.DecoyDuck</node>
+    <node x="334.0" y="236.0">com.gunjan.strategy.MallardDuck</node>
+    <node x="226.5" y="356.0">com.gunjan.strategy.QuackBehavior</node>
+    <node x="453.0" y="458.0">com.gunjan.strategy.MuteQuack</node>
+    <node x="164.0" y="657.0">com.gunjan.strategy.FlyWithWings</node>
+    <node x="162.0" y="236.0">com.gunjan.strategy.RedHeadDuck</node>
+    <node x="168.0" y="555.0">com.gunjan.strategy.FlyBehavior</node>
+    <node x="151.0" y="458.0">com.gunjan.strategy.Squeak</node>
+    <node x="653.0" y="236.0">com.gunjan.strategy.ModelDuck</node>
+    <node x="304.0" y="657.0">com.gunjan.strategy.FlyNoWay</node>
+    <node x="301.0" y="0.0">com.gunjan.strategy.Duck</node>
+    <node x="302.0" y="458.0">com.gunjan.strategy.FakeQuack</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.gunjan.strategy.MuteQuack" target="com.gunjan.strategy.QuackBehavior">
+      <point x="0.0" y="-26.0" />
+      <point x="518.5" y="428.0" />
+      <point x="341.125" y="428.0" />
+      <point x="49.125" y="26.0" />
+    </edge>
+    <edge source="com.gunjan.strategy.FakeQuack" target="com.gunjan.strategy.QuackBehavior">
+      <point x="0.0" y="-26.0" />
+      <point x="367.5" y="438.0" />
+      <point x="308.375" y="438.0" />
+      <point x="16.375" y="26.0" />
+    </edge>
+    <edge source="com.gunjan.strategy.FlyNoWay" target="com.gunjan.strategy.FlyBehavior">
+      <point x="0.0" y="-26.0" />
+      <point x="360.0" y="632.0" />
+      <point x="261.33333333333337" y="632.0" />
+      <point x="37.33333333333334" y="26.0" />
+    </edge>
+    <edge source="com.gunjan.strategy.RubberDuck" target="com.gunjan.strategy.Duck">
+      <point x="0.0" y="-37.5" />
+      <point x="71.0" y="206.0" />
+      <point x="321.8" y="206.0" />
+      <point x="-83.19999999999999" y="93.0" />
+    </edge>
+    <edge source="com.gunjan.strategy.FlyWithWings" target="com.gunjan.strategy.FlyBehavior">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="com.gunjan.strategy.MallardDuck" target="com.gunjan.strategy.Duck">
+      <point x="0.0" y="-37.5" />
+      <point x="0.0" y="93.0" />
+    </edge>
+    <edge source="com.gunjan.strategy.ModelDuck" target="com.gunjan.strategy.Duck">
+      <point x="0.0" y="-37.5" />
+      <point x="721.5" y="206.0" />
+      <point x="488.19999999999993" y="206.0" />
+      <point x="83.19999999999993" y="93.0" />
+    </edge>
+    <edge source="com.gunjan.strategy.DecoyDuck" target="com.gunjan.strategy.Duck">
+      <point x="0.0" y="-37.5" />
+      <point x="564.5" y="216.0" />
+      <point x="446.59999999999997" y="216.0" />
+      <point x="41.599999999999966" y="93.0" />
+    </edge>
+    <edge source="com.gunjan.strategy.Squeak" target="com.gunjan.strategy.QuackBehavior">
+      <point x="0.0" y="-26.0" />
+      <point x="216.5" y="438.0" />
+      <point x="275.625" y="438.0" />
+      <point x="-16.375" y="26.0" />
+    </edge>
+    <edge source="com.gunjan.strategy.FlyRocketPowered" target="com.gunjan.strategy.FlyBehavior">
+      <point x="0.0" y="-26.0" />
+      <point x="72.0" y="632.0" />
+      <point x="186.66666666666666" y="632.0" />
+      <point x="-37.33333333333334" y="26.0" />
+    </edge>
+    <edge source="com.gunjan.strategy.Quack" target="com.gunjan.strategy.QuackBehavior">
+      <point x="0.0" y="-26.0" />
+      <point x="65.5" y="428.0" />
+      <point x="242.875" y="428.0" />
+      <point x="-49.125" y="26.0" />
+    </edge>
+    <edge source="com.gunjan.strategy.RedHeadDuck" target="com.gunjan.strategy.Duck">
+      <point x="0.0" y="-37.5" />
+      <point x="238.0" y="216.0" />
+      <point x="363.4" y="216.0" />
+      <point x="-41.60000000000002" y="93.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="323.0" y="294.5" />
+  <SelectedNodes>
+    <node>com.gunjan.strategy.DecoyDuck</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

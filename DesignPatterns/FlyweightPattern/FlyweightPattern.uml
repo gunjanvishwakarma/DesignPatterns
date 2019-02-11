@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.gunjan.proxy.CarFactory</OriginalElement>
+  <nodes>
+    <node x="0.0" y="169.0">com.gunjan.proxy.FlyweightSprintCar</node>
+    <node x="238.0" y="169.0">com.gunjan.proxy.FlyweightMidgetCar</node>
+    <node x="119.0" y="0.0">com.gunjan.proxy.RaceCar</node>
+    <node x="0.0" y="312.0">com.gunjan.proxy.RaceCarClient</node>
+    <node x="224.0" y="312.0">com.gunjan.proxy.CarFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.gunjan.proxy.FlyweightSprintCar" target="com.gunjan.proxy.RaceCar">
+      <point x="0.0" y="-49.0" />
+      <point x="109.0" y="144.0" />
+      <point x="173.5" y="144.0" />
+      <point x="-54.5" y="59.5" />
+    </edge>
+    <edge source="com.gunjan.proxy.FlyweightMidgetCar" target="com.gunjan.proxy.RaceCar">
+      <point x="0.0" y="-49.0" />
+      <point x="347.0" y="144.0" />
+      <point x="282.5" y="144.0" />
+      <point x="54.5" y="59.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="159.5" y="219.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

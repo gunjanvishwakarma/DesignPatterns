@@ -1,11 +1,9 @@
 package com.gunjan.design_pattern;
 public class TestClass {
-
 	public static void main(String[] args) {
-		Computer computer = new Disk(new Monitor(new Computer()));
+		Computer computer = new Monitor(new Disk(new Computer()));
 		System.out.println("You're getting "+computer.description());
 	}
-
 }
 
 class Computer

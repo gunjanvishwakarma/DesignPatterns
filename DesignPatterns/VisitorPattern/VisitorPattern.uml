@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.gunjan.visitor.structure.DiscountedItem</OriginalElement>
+  <nodes>
+    <node x="0.0" y="146.0">com.gunjan.visitor.visitors.DiscountedItemVisitor</node>
+    <node x="0.0" y="456.0">com.gunjan.visitor.structure.DiscountedItem</node>
+    <node x="231.0" y="456.0">com.gunjan.visitor.structure.GiftItem</node>
+    <node x="308.0" y="157.0">com.gunjan.visitor.visitors.TotalPriceItemVisitor</node>
+    <node x="154.0" y="0.0">com.gunjan.visitor.visitors.ItemVisitor</node>
+    <node x="462.0" y="467.0">com.gunjan.visitor.structure.RegularItem</node>
+    <node x="231.0" y="354.0">com.gunjan.visitor.structure.Item</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.gunjan.visitor.structure.GiftItem" target="com.gunjan.visitor.structure.Item">
+      <point x="0.0" y="-60.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="com.gunjan.visitor.structure.DiscountedItem" target="com.gunjan.visitor.structure.Item">
+      <point x="0.0" y="-60.0" />
+      <point x="105.5" y="431.0" />
+      <point x="266.1666666666667" y="431.0" />
+      <point x="-70.33333333333331" y="26.0" />
+    </edge>
+    <edge source="com.gunjan.visitor.visitors.DiscountedItemVisitor" target="com.gunjan.visitor.visitors.ItemVisitor">
+      <point x="0.0" y="-81.5" />
+      <point x="144.0" y="121.0" />
+      <point x="226.0" y="121.0" />
+      <point x="-72.0" y="48.0" />
+    </edge>
+    <edge source="com.gunjan.visitor.structure.RegularItem" target="com.gunjan.visitor.structure.Item">
+      <point x="0.0" y="-49.0" />
+      <point x="567.5" y="431.0" />
+      <point x="406.8333333333333" y="431.0" />
+      <point x="70.33333333333331" y="26.0" />
+    </edge>
+    <edge source="com.gunjan.visitor.visitors.TotalPriceItemVisitor" target="com.gunjan.visitor.visitors.ItemVisitor">
+      <point x="0.0" y="-70.5" />
+      <point x="452.0" y="121.0" />
+      <point x="370.0" y="121.0" />
+      <point x="72.0" y="48.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="187.0" y="355.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
