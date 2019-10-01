@@ -14,13 +14,13 @@ public class Runner
         cat.makeSound();
         
         // Double Dispatch will not work in java
-        dog.makeSound(dog);
-        cat.makeSound(cat);
+        //dog.makeSound(dog);
+        //cat.makeSound(cat);
     
         Number i = new Integer(1);
         Number f = new Float(1.0);
     
-        dog.printNumber(i);
-        dog.printNumber(f);
+        //dog.printNumber(i);
+        //dog.printNumber(f);
     }
 }
