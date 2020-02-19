@@ -1,7 +1,6 @@
 package com.gunjan.design_pattern;
 
 public class TestClass {
-
 	
 	public static void main(String[] args) {
 		SimulateThreadState state = new SimulateThreadState();
