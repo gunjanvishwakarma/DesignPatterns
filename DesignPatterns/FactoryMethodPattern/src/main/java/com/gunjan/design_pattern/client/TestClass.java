@@ -9,5 +9,4 @@ public class TestClass {
 		Document document = application.createDocument();
 		document.printDescription();
 	}
-
 }

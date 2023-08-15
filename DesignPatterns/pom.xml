@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>DesignPattern</groupId>
-    <artifactId>DesignPattern</artifactId>
+    <groupId>com.gunjan</groupId>
+    <artifactId>design-pattern</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
@@ -27,6 +27,11 @@
         <module>StrategyPattern</module>
         <module>TemplateMethodPattern</module>
         <module>VisitorPattern</module>
+        <module>BridgePattern</module>
+        <module>ChainOfResponsibility</module>
+        <module>FlyweightPattern</module>
+        <module>MomentoPattern</module>
+        <module>PrototypePattern</module>
     </modules>
     <build>
         <plugins>
